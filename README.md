@@ -60,7 +60,7 @@ The taxes for an order can be calculated by calculating `item price x item quant
 
 #### Calculating the Total for an order
 The above step requires you to correctly calculate the total (including taxes) for an order that contains one item.
-The total for an order can be calculated as `order subtotal + taxes`.
+The total for an order can be calculated as `subtotal + taxes`.
 
 ## Returning to the Menu
 The user should have the ability to `dismiss the item detail view` and return to the Menu
