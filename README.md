@@ -67,7 +67,7 @@ The user should have the ability to `dismiss the item detail view` and return to
 
 ## Assumptions
 * You can assume that you will transact in USD.
-* You can assume that we'd prefer you spend as little time as possible on layouts, animations, etc. as possible.
+* You can assume that we'd prefer you spend as little time as possible on layouts, animations, etc.
 * You can assume that we will pay close attention to whether your calculations are correct.
 * For item prices, assume `100 is equivalent to $1 USD`.
 * For item tax rates, assume `0.0825 is equivalent to 8.25%`.
