@@ -2,7 +2,9 @@
 Design and build an application that displays a restaurant menu for a point-of-sale. Use the defined schemas and payloads provided below to meet the requirements of this challenge.
 
 ## Fetching the Menu
-A menu can be retrieved by sending a `GET` request to the `GET /menus/:uuid` endpoint for the uuid `5ced2fea-9155-11ea-bb37-0242ac130002`.  A sample response follows:
+Retrieve by sending a `GET` request to the `GET /menus/:uuid` endpoint.  
+Use the uuid `5ced2fea-9155-11ea-bb37-0242ac130002` to fetch the menu for the challenge.  
+A sample response follows:
 ```
 {
   uuid: '5ced2fea-9155-11ea-bb37-0242ac130002',
@@ -30,7 +32,7 @@ A menu can be retrieved by sending a `GET` request to the `GET /menus/:uuid` end
 ```
 
 ## Displaying the Menu
-Display the fetched menu in a RecyclerView.  **No extra points for pretty UI**.  Each item in the RecyclerView must display the item `name` and `price`.  The Activity which displays the menu should respond to the <intent-filter>:
+Display the fetched menu in a RecyclerView.  **No extra points for pretty UI**.  Each item in the RecyclerView must display the item `name` and `price`.  The Activity which displays the menu should respond to the `<intent-filter>`:
 ```
 <intent-filter>
     <action android:name="android.intent.action.MAIN" />
