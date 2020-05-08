@@ -67,13 +67,14 @@ The user should have the ability to `dismiss the item detail view` and return to
 
 ## Assumptions
 * You can assume that you will transact in USD.
-* You can assume that we'd prefer you to spend as little time as possible on layouts, animations, etc. as possible.
+* You can assume that we'd prefer you spend as little time as possible on layouts, animations, etc. as possible.
 * You can assume that we will pay close attention to whether your calculations are correct.
 * For item prices, assume `100 is equivalent to $1 USD`.
 * For item tax rates, assume `0.0825 is equivalent to 8.25%`.
 * You can assume that we're only expecting a couple hours of your time
-* You can assume that we'd prefer you to spend as little time as possible focusing on how your Application builds.
+* You can assume that we'd prefer you spend as little time as possible focusing on how your Application builds.
 * You can assume that you are free to make any choices that you want so long as the written requirements of this document are satisfied.
+* You can assume that we write nearly all of our new Android code in Kotlin.
 
 ## Technical Requirements
 * Your Application should compile on Android Studio 3.6.3 or newer.
