@@ -82,7 +82,7 @@ We're excited that you're considering working with us.  We really hope that you 
 - How do you ensure that your system meets the requirements of the challenge?
 - Have you set the project up in a way that others could easily jump in and add additional functionality?
 
-We `will not` be evaluating your layouts, animations, nor anything else related aesthetics of the app on-screen as part of this challenge.
+We `will not` be evaluating your layouts, animations, nor anything else related to aesthetics of the app on-screen as part of this challenge.
 
 We `will not` be evaluating your level of gradle build wizardry as part of this challenge.
 
