@@ -2,7 +2,7 @@
 Design and build an application that displays a restaurant menu for a point-of-sale. Use the defined schemas and payloads provided below to meet the requirements of this challenge.
 
 ## Fetching the Menu
-Retrieve by sending a `GET` request to the `GET /menus/:uuid` endpoint.  
+Retrieve a menu by sending a `GET` request to the `GET /menus/:uuid` endpoint.  
 Use the uuid `5ced2fea-9155-11ea-bb37-0242ac130002` to fetch the menu for the challenge.  
 A sample response follows:
 ```
