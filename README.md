@@ -32,7 +32,7 @@ A sample response follows:
 ```
 
 ## Displaying the Menu
-Display the fetched menu in a RecyclerView.  **No extra points for pretty UI**.  Each item in the RecyclerView must display the item `name` and `price`.  The Activity which displays the menu should respond to the `<intent-filter>`:
+Display the fetched menu in a RecyclerView.  Each item in the RecyclerView must display the item `name` and `price`.  The Activity which displays the menu should respond to the `<intent-filter>`:
 ```
 <intent-filter>
     <action android:name="android.intent.action.MAIN" />
@@ -42,8 +42,7 @@ Display the fetched menu in a RecyclerView.  **No extra points for pretty UI**. 
 ```
 
 ## Clicking on a Menu Item
-Clicking on a menu item in the RecyclerView should `display a detail view` for the selected item.  **No extra points for pretty UI**.  
-The detail view should display the following information:
+Clicking on a menu item in the RecyclerView should `display a detail view` for the selected item.  The detail view should display the following information:
 - `item name`
 - `item price`
 - `subtotal` - calculated subtotal (excluding taxes) for an order containing `1` of this item
@@ -67,18 +66,25 @@ The user should have the ability to `dismiss the item detail view` and return to
 
 ## Assumptions
 * You can assume that you will transact in USD.
-* You can assume that we'd prefer you spend as little time as possible on layouts, animations, etc.
-* You can assume that we will pay close attention to whether your calculations are correct.
 * For item prices, assume `100 is equivalent to $1 USD`.
 * For item tax rates, assume `0.0825 is equivalent to 8.25%`.
-* You can assume that we're only expecting a couple hours of your time
-* You can assume that we'd prefer you spend as little time as possible focusing on how your Application builds.
-* You can assume that you are free to make any choices that you want so long as the written requirements of this document are satisfied.
-* You can assume that we write nearly all of our new Android code in Kotlin.
 
 ## Technical Requirements
 * Your Application should compile on Android Studio 3.6.3 or newer.
 * Your application should run on Android 7.1.2 and newer.
+
+## Note from the Team
+We're excited that you're considering working with us.  We really hope that you choose to dedicate a few hours of your time to completing this challenge.  We want to be transparent about what we're looking for at this stage of the interview process in hopes that we can be efficient with your time.
+
+**In this challenge, we want to see how you think about architecting systems.**
+- What classes do you choose to build and what are their responsibilities?
+- What tools and techniques do you use and why?
+- How do you ensure that your system meets the requirements of the challenge?
+- Have you set the project up in a way that others could easily jump in and add additional functionality?
+
+We `will not` be evaluating your layouts, animations, nor anything else related aesthetics of the app on-screen as part of this challenge.
+
+We `will not` be evaluating your level of gradle build wizardry as part of this challenge.
 
 ## Questions
 Contact the proctor of your test if you have any questions or feedback about this challenge.
