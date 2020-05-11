@@ -15,27 +15,26 @@ We `will not` be evaluating your layouts, animations, nor anything else related 
 We `will not` be evaluating your gradle build skillset as part of this challenge.
 
 ## Fetching the Menu
-Retrieve a menu by sending a `GET` request to the `GET https://challenge.fiserv.com/menus/:uuid` endpoint.  
-Use the uuid `5ced2fea-9155-11ea-bb37-0242ac130002` to fetch the menu for the challenge.  
+Retrieve a menu by sending a `PUT` request to the `PUT http://www.mocky.io/v2/5eb9ad6d2f00005e523c3374` endpoint.  
 A sample response follows:
 ```
 {
-  uuid: '5ced2fea-9155-11ea-bb37-0242ac130002',
-  items: [
+  "uuid": "5ced2fea-9155-11ea-bb37-0242ac130002",
+  "items": [
     {
-      uuid: '7cd7f0ef-8265-4593-95ea-dd7c2bb6396d',
-      name: 'Hamburger',
-      price: 875
+      "uuid": "f9108b94-93bf-11ea-bb37-0242ac130002",
+      "name": "Hamburger",
+      "price": 875
     },
     {
-      uuid: '6d419f88-b53f-49e2-af0a-832444d6ed41',
-      name: 'Water',
-      price: 235
+      "uuid": "367000d2-93c0-11ea-bb37-0242ac130002",
+      "name": "Water",
+      "price": 235
     },
     {
-      uuid: '47dfb3e6-b892-40b8-9ce6-f769c6e15537',
-      name: 'Beer',
-      price: 1025
+      "uuid": "47dfb3e6-b892-40b8-9ce6-f769c6e15537",
+      "name": "Beer",
+      "price": 1025
     }
   ]
 }
