@@ -7,7 +7,7 @@ We're excited that you're considering working with us.  We hope that you choose 
 **In this challenge, we want to see how you think about architecting applications.**
 - What classes do you choose to build and what are their responsibilities?
 - What tools and techniques do you use and why?
-- How do you ensure that your system meets the requirements of the challenge?
+- How do you ensure that your application meets the requirements of the challenge?
 - Have you set the project up in a way that others could easily jump in and add additional functionality?
 
 We `will not` be evaluating your layouts, animations, nor anything else related to aesthetics of the app on-screen as part of this challenge.
@@ -15,7 +15,7 @@ We `will not` be evaluating your layouts, animations, nor anything else related 
 We `will not` be evaluating your gradle build skillset as part of this challenge.
 
 ## Fetching the Menu
-Retrieve a menu by sending a `GET` request to the `GET /menus/:uuid` endpoint.  
+Retrieve a menu by sending a `GET` request to the `GET https://challenge.fiserv.com/menus/:uuid` endpoint.  
 Use the uuid `5ced2fea-9155-11ea-bb37-0242ac130002` to fetch the menu for the challenge.  
 A sample response follows:
 ```
