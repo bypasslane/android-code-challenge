@@ -12,7 +12,7 @@ We're excited that you're considering working with us.  We really hope that you 
 
 We `will not` be evaluating your layouts, animations, nor anything else related to aesthetics of the app on-screen as part of this challenge.
 
-We `will not` be evaluating your level of gradle build wizardry as part of this challenge.
+We `will not` be evaluating your gradle build skillset as part of this challenge.
 
 ## Fetching the Menu
 Retrieve a menu by sending a `GET` request to the `GET /menus/:uuid` endpoint.  
