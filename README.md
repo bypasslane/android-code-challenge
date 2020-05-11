@@ -63,8 +63,6 @@ Clicking on a menu item in the RecyclerView should **display a new view** for th
 
 #### Disabling the `-1 quantity button`
 The `-1 quantity button` button should be disabled if `quantity` is **0**.  It should be enabled otherwise.  
-The total price for an item can be calculated by calculating `item price x quantity`.
-The resulting value should be rounded to the nearest penny for display.
 
 #### Calculating the Total Price for an item
 The above step requires you to correctly calculate total price for an item.
