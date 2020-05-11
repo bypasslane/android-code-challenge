@@ -57,8 +57,8 @@ Clicking on a menu item in the RecyclerView should **display a new view** for th
 - `item price` - pulled from the fetched menu
 - `total price` - calculated total price for the item, accounting for quantity.  Details below.
 - `quantity` - the quantity for calculating total price.  Starts at **1** every time the new view is loaded.  Never goes below **0**.  Does not need to be remembered after the view is closed.
-- `+1 quantity button` - increases the quantity by **1**.  `quantity` view updates.  `total price` view updates.
-- `-1 quantity button` - decrements the quantity by **1**.  `quantity` view updates.  `total price` view updates.
+- `+1 quantity button` - increases the quantity by **1**.  `quantity` updates.  `total price` updates.
+- `-1 quantity button` - decrements the quantity by **1**.  `quantity` updates.  `total price` updates.
 - `cancel button` - returns the user to the Menu.
 
 #### Disabling the `-1 quantity button`
