@@ -12,20 +12,17 @@ A sample response follows:
     {
       uuid: '7cd7f0ef-8265-4593-95ea-dd7c2bb6396d',
       name: 'Hamburger',
-      price: 875,
-      tax_rate: 0.0625
+      price: 875
     },
     {
       uuid: '6d419f88-b53f-49e2-af0a-832444d6ed41',
       name: 'Water',
-      price: 235,
-      tax_rate: 0.0625
+      price: 235
     },
     {
       uuid: '47dfb3e6-b892-40b8-9ce6-f769c6e15537',
       name: 'Beer',
-      price: 1025,
-      tax_rate: 0.0825
+      price: 1025
     }
   ]
 }
@@ -46,7 +43,7 @@ Clicking on a menu item in the RecyclerView should **display a new view** for th
 - `item name` - pulled from the fetched menu
 - `item price` - pulled from the fetched menu
 - `total price` - calculated total price for the item, accounting for quantity.  Details below.
-- `quantity` - the quantity for calculating total price.  Starts at **1** every time the new view is loaded.  Does not need to be persisted on the item.  Never goes below **0**.
+- `quantity` - the quantity for calculating total price.  Starts at **1** every time the new view is loaded.  Never goes below **0**.  Does not need to be remembered after the view is closed.
 - `+1 quantity button` - increases the quantity by **1**.  `quantity` view updates.  `total price` view updates.
 - `-1 quantity button` - decrements the quantity by **1**.  `quantity` view updates.  `total price` view updates.
 - `cancel button` - returns the user to the Menu.
