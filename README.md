@@ -42,32 +42,28 @@ Display the fetched menu in a RecyclerView.  Each item in the RecyclerView must 
 ```
 
 ## Clicking on a Menu Item
-Clicking on a menu item in the RecyclerView should `display a detail view` for the selected item.  The detail view should display the following information:
-- `item name`
-- `item price`
-- `subtotal` - calculated subtotal (excluding taxes) for an order containing `1` of this item
-- `taxes` - calculated taxes for an order containing `1` of this item
-- `total` - calculated total (including taxes) for an order containing `1` of this item
+Clicking on a menu item in the RecyclerView should **display a new view** for the selected item.  The new view should display the following:
+- `item name` - pulled from the fetched menu
+- `item price` - pulled from the fetched menu
+- `total price` - calculated total price for the item, accounting for quantity.  Details below.
+- `quantity` - the quantity for calculating total price.  Starts at **1** every time the new view is loaded.  Does not need to be persisted on the item.  Never goes below **0**.
+- `+1 quantity button` - increases the quantity by **1**.  `quantity` view updates.  `total price` view updates.
+- `-1 quantity button` - decrements the quantity by **1**.  `quantity` view updates.  `total price` view updates.
+- `cancel button` - returns the user to the Menu.
 
-#### Calculating the Subtotal for an order
-The above step requires you to correctly calculate the subtotal for an order that contains one item.
-The subtotal for an order can be calculated by calculating `item price x item quantity` for each item on the order and summing the results.
+#### Disabling the `-1 quantity button`
+The `-1 quantity button` button should be disabled if `quantity` is **0**.  It should be enabled otherwise.  
+The total price for an item can be calculated by calculating `item price x quantity`.
+The resulting value should be rounded to the nearest penny for display.
 
-#### Calculating the Taxes for an order
-The above step requires you to correctly calculate the taxes for an order that contains one item.
-The taxes for an order can be calculated by calculating `item price x item quantity x item tax_rate` for each item on the order and summing the results.
-
-#### Calculating the Total for an order
-The above step requires you to correctly calculate the total (including taxes) for an order that contains one item.
-The total for an order can be calculated as `subtotal + taxes`.
-
-## Returning to the Menu
-The user should have the ability to `dismiss the item detail view` and return to the Menu
+#### Calculating the Total Price for an item
+The above step requires you to correctly calculate total price for an item.
+The total price for an item can be calculated by calculating `item price x quantity`.
+The resulting value should be rounded to the nearest penny for display.
 
 ## Assumptions
-* You can assume that you will transact in USD.
+* You can assume that all all prices should be displayed USD, rounded to the nearest penny.
 * For item prices, assume `100 is equivalent to $1 USD`.
-* For item tax rates, assume `0.0825 is equivalent to 8.25%`.
 
 ## Technical Requirements
 * Your Application should compile on Android Studio 3.6.3 or newer.
@@ -76,7 +72,7 @@ The user should have the ability to `dismiss the item detail view` and return to
 ## Note from the Team
 We're excited that you're considering working with us.  We really hope that you choose to dedicate a few hours of your time to completing this challenge.  We want to be transparent about what we're looking for at this stage of the interview process in hopes that we can be efficient with your time.
 
-**In this challenge, we want to see how you think about architecting systems.**
+**In this challenge, we want to see how you think about architecting applications.**
 - What classes do you choose to build and what are their responsibilities?
 - What tools and techniques do you use and why?
 - How do you ensure that your system meets the requirements of the challenge?
