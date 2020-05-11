@@ -1,6 +1,19 @@
 # Android Point of Sale App Challenge
 Design and build an application that displays a restaurant menu for a point-of-sale. Use the defined schemas and payloads provided below to meet the requirements of this challenge.
 
+## Note from the Team
+We're excited that you're considering working with us.  We really hope that you choose to dedicate a few hours of your time to completing this challenge.  We want to be transparent about what we're looking for at this stage of the interview process in hopes that we can be efficient with your time.
+
+**In this challenge, we want to see how you think about architecting applications.**
+- What classes do you choose to build and what are their responsibilities?
+- What tools and techniques do you use and why?
+- How do you ensure that your system meets the requirements of the challenge?
+- Have you set the project up in a way that others could easily jump in and add additional functionality?
+
+We `will not` be evaluating your layouts, animations, nor anything else related to aesthetics of the app on-screen as part of this challenge.
+
+We `will not` be evaluating your level of gradle build wizardry as part of this challenge.
+
 ## Fetching the Menu
 Retrieve a menu by sending a `GET` request to the `GET /menus/:uuid` endpoint.  
 Use the uuid `5ced2fea-9155-11ea-bb37-0242ac130002` to fetch the menu for the challenge.  
@@ -65,19 +78,6 @@ The resulting value should be rounded to the nearest penny for display.
 ## Technical Requirements
 * Your Application should compile on Android Studio 3.6.3 or newer.
 * Your application should run on Android 7.1.2 and newer.
-
-## Note from the Team
-We're excited that you're considering working with us.  We really hope that you choose to dedicate a few hours of your time to completing this challenge.  We want to be transparent about what we're looking for at this stage of the interview process in hopes that we can be efficient with your time.
-
-**In this challenge, we want to see how you think about architecting applications.**
-- What classes do you choose to build and what are their responsibilities?
-- What tools and techniques do you use and why?
-- How do you ensure that your system meets the requirements of the challenge?
-- Have you set the project up in a way that others could easily jump in and add additional functionality?
-
-We `will not` be evaluating your layouts, animations, nor anything else related to aesthetics of the app on-screen as part of this challenge.
-
-We `will not` be evaluating your level of gradle build wizardry as part of this challenge.
 
 ## Questions
 Contact the proctor of your test if you have any questions or feedback about this challenge.
