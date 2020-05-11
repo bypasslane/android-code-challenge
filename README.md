@@ -62,7 +62,7 @@ Clicking on a menu item in the RecyclerView should **display a new view** for th
 - `cancel button` - returns the user to the Menu.
 
 #### Disabling the `-1 quantity button`
-The `-1 quantity button` button should be disabled if `quantity` is **0**.  It should be enabled otherwise.  
+The `-1 quantity button` should be disabled if `quantity` is **0**.  It should be enabled otherwise.
 
 #### Calculating the Total Price for an item
 The above step requires you to correctly calculate total price for an item.
@@ -71,7 +71,7 @@ The resulting value should be rounded to the nearest penny for display.
 
 ## Assumptions
 * You can assume that all all prices should be displayed USD, rounded to the nearest penny.
-* For item prices, assume `100 is equivalent to $1 USD`.
+* For item prices, assume `100 is equivalent to $1.00 USD`.
 
 ## Technical Requirements
 * Your Application should compile on Android Studio 3.6.3 or newer.
