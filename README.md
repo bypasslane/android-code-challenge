@@ -2,7 +2,7 @@
 Design and build an application that displays a restaurant menu for a point-of-sale. Use the defined schemas and payloads provided below to meet the requirements of this challenge.
 
 ## Note from the Team
-We're excited that you're considering working with us.  We really hope that you choose to dedicate a few hours of your time to completing this challenge.  We want to be transparent about what we're looking for at this stage of the interview process in hopes that we can be efficient with your time.
+We're excited that you're considering working with us.  We hope that you choose to dedicate a few hours of your time to completing this challenge.  We want to be transparent about what we're looking for at this stage of the interview process in hopes that we can be efficient with your time.
 
 **In this challenge, we want to see how you think about architecting applications.**
 - What classes do you choose to build and what are their responsibilities?
