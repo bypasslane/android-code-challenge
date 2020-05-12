@@ -4,7 +4,7 @@ Design and build an application that displays a restaurant menu for a point-of-s
 ## Note from the Team
 We're excited that you're considering working with us.  We hope that you choose to dedicate a few hours of your time to completing this challenge.  We want to be transparent about what we're looking for at this stage of the interview process in hopes that we can be efficient with your time.
 
-**In this challenge, we want to see how you think about architecting applications.**
+**In this challenge, we want to see how you think about architecting systems.**
 - What classes do you choose to build and what are their responsibilities?
 - What tools and techniques do you use and why?
 - How do you ensure that your application meets the requirements of the challenge?
@@ -15,7 +15,7 @@ We `will not` be evaluating your layouts, animations, nor anything else related 
 We `will not` be evaluating your gradle build skillset as part of this challenge.
 
 ## Fetching the Menu
-Retrieve a menu by sending a `PUT` request to the `PUT http://www.mocky.io/v2/5eb9ad6d2f00005e523c3374` endpoint.  
+Retrieve a menu by sending a `GET` request to the `GET http://www.mocky.io/v2/5eb9ad6d2f00005e523c3374` endpoint.  
 A sample response follows:
 ```
 {
