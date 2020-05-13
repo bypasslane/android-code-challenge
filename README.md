@@ -15,7 +15,7 @@ We `will not` be evaluating your layouts, animations, nor anything else related 
 We `will not` be evaluating your gradle build skillset as part of this challenge.
 
 ## Fetching the Menu
-Retrieve a menu by sending a `GET` request to the `GET http://www.mocky.io/v2/5eb9ad6d2f00005e523c3374` endpoint.  
+Retrieve a menu by sending a `GET` request to the `GET https://www.mocky.io/v2/5eb9ad6d2f00005e523c3374` endpoint.  
 A sample response follows:
 ```
 {
