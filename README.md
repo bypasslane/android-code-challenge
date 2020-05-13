@@ -76,6 +76,21 @@ The resulting value should be rounded to the nearest penny for display.
 * Your Application should compile on Android Studio 3.6.3 or newer.
 * Your application should run on Android 7.1.2 and newer.
 
+## Network Security Config
+In order to access the endpoint for this challenge, you will need to add the certificate for Mocky.io.
+Two files (**mockyio.cer** and **network_security_config.xml**) are included in this repository.
+1. Copy **mockyio.cer** into your app's `res/raw` directory
+2. Copy **network_security_config.xml** into your app's `res/xml` directory
+3. Add the following line to your AndroidManifest.xml file:
+```
+<application
+    ...
+    android:networkSecurityConfig="@xml/network_security_config"
+    >
+    ...
+</application>
+```
+
 ## Questions
 Contact the proctor of your test if you have any questions or feedback about this challenge.
 
